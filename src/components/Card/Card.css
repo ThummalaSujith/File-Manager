@@ -1,0 +1,90 @@
+.card-container{
+    height:300px;
+    width:90%;
+    margin-left:10px;
+    margin-top:30px;
+    border-radius: 12px;
+    box-shadow: rgba(215, 201, 201, 0.2) 0px 2px 8px 0px;
+    background: linear-gradient(to right, rgb(59, 58, 58), rgb(32, 32, 32)); 
+}
+
+.first-row{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:20px;
+    padding-right:5px;
+    padding-left:5px;
+    padding-top:5px;
+}
+@keyframes progress {
+    0% { --percentage: 0; }
+    100% { --percentage: var(--value); }
+  }
+  
+  @property --percentage {
+    syntax: '<number>';
+    inherits: true;
+    initial-value: 0;
+  }
+  
+  
+  [role="progressbar"] {
+    --percentage: var(--value);
+    --primary: rgb(43, 114, 169);
+    --secondary: rgb(242, 117, 230);
+    --size: 160px;
+    animation: progress 2s 0.5s forwards;
+    width: var(--size);
+    aspect-ratio: 2 / 1;
+    border-radius: 50% / 100% 100% 0 0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left:30px;
+    margin-top: 10px; 
+ 
+  }
+  
+  [role="progressbar"]::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(from 0.75turn at 50% 100%, var(--primary) calc(var(--percentage) * 1% / 2), var(--secondary) calc(var(--percentage) * 1% / 2 + 0.1%));
+    mask: radial-gradient(at 50% 100%, white 55%, transparent 55.5%);
+    mask-mode: alpha;
+    -webkit-mask: radial-gradient(at 50% 100%, #0000 55%, #000 55.5%);
+    -webkit-mask-mode: alpha;
+  }
+  
+
+  
+  .emoji{
+    font-size: 3em; 
+  }
+
+  .Disk-cleaner{
+    background: linear-gradient(to right, rgb(25, 205, 255), rgb(193, 2, 232)); 
+    padding:10px;
+    border-radius:10px;
+    margin-left:5px;
+    margin-right:5px;
+  }
+
+  .zero-hun{
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .zero-hun p{
+    font-size:0.8rem;
+    margin-left:25px;
+    margin-right:20px;
+  }
+  .per p{
+  font-size:10px;
+  }

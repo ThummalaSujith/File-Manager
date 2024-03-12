@@ -1,10 +1,21 @@
 .App {
   text-align: center;
+  background-color: rgba(13, 12, 12, 0.978);
+  color:white;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  overflow-x: hidden;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -36,3 +47,8 @@
     transform: rotate(360deg);
   }
 }
+.content-container {
+  display: flex;
+  flex: 1;
+}
+

@@ -1,4 +1,4 @@
-// FileItem.js
+
 
 import React from 'react';
 import './FileItem.css'; 

@@ -49,33 +49,33 @@ border-bottom: 1px solid rgb(47, 47, 47);
 }
 
 .link-icon, .download-icon {
-  margin: 0 5px; /* Adds horizontal spacing around icons */
+  margin: 0 5px; 
 }
 
 .icon-background {
-  display: inline-flex; /* Keeps the icon centered and allows for background */
-  border-radius: 50%; /* Circular background */
+  display: inline-flex; 
+  border-radius: 50%; 
   padding: 6px; 
   background: linear-gradient(to right, rgb(25, 205, 255), rgb(193, 2, 232)); 
 }
 
 .download-icon svg {
-  color: white; /* Sets the icon color to contrast against the gradient */
+  color: white; 
 }
 
 .control-button {
-  margin-top: 4px; /* Reduce spacing between icon and text */
-  font-size: 14px; /* Adjust font size as needed for text */
+  margin-top: 4px; 
+  font-size: 14px; 
 }
 
-.icon-background, /* If you have specific classes for icons, use them here */
-.control-bar div svg { /* Targets all svg icons within .control-bar divs */
-  font-size: 24px; /* Adjust size as needed */
+.icon-background, 
+.control-bar div svg { 
+  font-size: 24px; 
 }
 
 .input-icon-group .input-icon,
 .input-icon-group .icon-background {
-  font-size: 24px; /* Adjust icon size within input groups */
+  font-size: 24px;
 }
 
 

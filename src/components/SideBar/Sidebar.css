@@ -1,13 +1,13 @@
-/* Sidebar.css */
+
 
 .sidebar {
-    width: 280px; /* Sidebar width */
-    background-color: #181818; /* Dark background color */
-    color: #fff; /* White text color */
-    height: 100vh; /* Full viewport height */
-    padding-top: 20px; /* Space at the top */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Example font */
-    box-sizing: border-box; /* Ensures padding doesn't add to width */
+    width: 280px; 
+    background-color: #181818; 
+    color: #fff;
+    height: 100vh;
+    padding-top: 20px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    box-sizing: border-box; 
     background-color: rgba(13, 12, 12, 0.978);
     color:white;
     border-right: 1px solid rgb(47, 47, 47);
@@ -19,23 +19,23 @@
     padding: 12px 16px;
     transition: background-color 0.3s;
     cursor: pointer;
-    border-left: 3px solid transparent; /* Adjust border color to match design */
-    font-size: 16px; /* Text size */
+    border-left: 3px solid transparent;
+    font-size: 16px; 
   }
   
   .sidebar-item:hover {
-    background-color: #202020; /* Lighter background on hover */
+    background-color: #202020; 
   }
   
   .sidebar-item-icon {
-    margin-right: 12px; /* Space between icon and text */
-    font-size: 20px; /* Icon size */
-    width: 24px; /* Fixed width for alignment */
-    text-align: center; /* Center icon text */
+    margin-right: 12px; 
+    font-size: 20px; 
+    width: 24px; 
+    text-align: center; 
   }
   
   .sidebar-item-text {
-    flex-grow: 1; /* Ensures the text takes up the remaining space */
+    flex-grow: 1; 
   }
   
   .sidebar-subitems {
@@ -45,28 +45,28 @@
   
   .sidebar-subitems p {
     padding: 8px 16px;
-    padding-left: 48px; /* Indent subitems */
-    margin: 0; /* Remove default margin */
+    padding-left: 48px; 
+    margin: 0; 
     transition: background-color 0.3s;
-    border-left: 3px solid transparent; /* Style for active item if needed */
+    border-left: 3px solid transparent; 
   }
   
   .sidebar-subitems p:hover {
-    background-color: #202020; /* Lighter background on hover */
+    background-color: #202020; 
   }
   
-  /* Icons can be added using pseudo-elements or background-images */
+
   .sidebar-item-icon::before {
-    content: ''; /* Use the appropriate content for icons */
+    content: ''; 
     display: inline-block;
-    width: 20px; /* Icon width */
-    height: 20px; /* Icon height */
-    margin-right: 12px; /* Space between icon and text */
-    /* Add background images for icons if necessary */
+    width: 20px;
+    height: 20px; 
+    margin-right: 12px; 
+   
   }
   
   
-  /* Custom scrollbar for the sidebar */
+
   .sidebar::-webkit-scrollbar {
     width: 8px;
   }
@@ -81,10 +81,10 @@
   }
 
   .sidebar-item, 
-.sidebar-subitems div { /* This targets both the top-level items and each subitem container */
+.sidebar-subitems div { 
   display: flex;
-  align-items: center; /* Align items vertically in the center */
-  gap: 10px; /* Adjust the space between the icon and the text */
+  align-items: center; 
+  gap: 10px; 
 
 }
   

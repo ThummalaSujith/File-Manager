@@ -63,12 +63,12 @@
   }
   
   .search-icon {
-    margin-right: 5px; /* Adds some space between the icon and the input field */
-    color: #777; /* Example color, adjust as needed */
+    margin-right: 5px; 
+    color: #777; 
   }
   
   .search-input {
     border: none;
     outline: none;
-    width: 100%; /* Ensures the input field takes up remaining space */
+    width: 100%; 
   }

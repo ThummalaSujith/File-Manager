@@ -72,37 +72,37 @@ padding-left:30px;
     color:white;
 }
 
-/* Create a custom checkbox appearance */
+
 .custom-checkbox .checkmark {
   display: inline-block;
-  width: 12px; /* Smaller width */
-  height: 12px; /* Smaller height */
+  width: 12px;
+  height: 12px; 
   background: #eee;
   border-radius: 3px;
   cursor: pointer;
   position: relative;
 }
 
-/* Style for the custom tick mark */
+
 .custom-checkbox .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-/* When the checkbox is checked, show the tick mark */
+
 .custom-checkbox input:checked + .checkmark:after {
   display: block;
-  left: 4px; /* Adjusted for the smaller box */
-  top: 0px; /* Adjusted for the smaller box */
-  width: 3px; /* Adjusted for the smaller box */
-  height: 6px; /* Adjusted for the smaller box */
+  left: 4px; 
+  top: 0px; 
+  width: 3px;
+  height: 6px; 
   border: solid white;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
 
-/* Apply the linear gradient background to the checkmark when checked */
+
 .custom-checkbox input:checked + .checkmark {
   background: linear-gradient(to right, rgb(25, 205, 255), rgb(193, 2, 232));
 }

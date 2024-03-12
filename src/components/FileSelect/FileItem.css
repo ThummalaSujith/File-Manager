@@ -1,0 +1,110 @@
+
+
+
+
+ 
+
+  .label {
+    cursor: pointer; /* Indicates the label is clickable */
+  } 
+
+  .progress-bar-background {
+   
+    width: 60%;
+    background-color: #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress-bar-fill {
+    height: 10px; 
+    background: linear-gradient(to right, rgb(25, 205, 255), rgb(193, 2, 232)); 
+    border-radius: 4px;
+    transition: width 0.3s ease-in-out;
+  }
+
+
+  .file-item, .heading, .footer {
+    display: grid;
+    grid-template-columns: 40px 1.1fr 1fr 1fr 1fr 1fr; 
+    gap: 16px;
+    align-items: center;
+    padding: 10px;
+   
+
+}
+
+.progress{
+  display:flex;
+  justify-content: center;
+}
+
+.pause{
+  padding-right:10px;
+ margin-top:10px;
+}
+
+.fileImage,.music,.zip,.apk,.exe{
+
+  margin-top:0;
+padding-right:10px;
+}
+
+
+
+
+.file-label {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
+  gap: 8px; /* Adds some space between the icon and the filename */
+
+}
+.file-name {
+padding-left:30px;
+
+}
+.icon1{
+  font-size: 25px;
+}
+
+.file-item{
+  background-color: rgba(13, 12, 12, 0.978);
+    color:white;
+}
+
+/* Create a custom checkbox appearance */
+.custom-checkbox .checkmark {
+  display: inline-block;
+  width: 12px; /* Smaller width */
+  height: 12px; /* Smaller height */
+  background: #eee;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Style for the custom tick mark */
+.custom-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* When the checkbox is checked, show the tick mark */
+.custom-checkbox input:checked + .checkmark:after {
+  display: block;
+  left: 4px; /* Adjusted for the smaller box */
+  top: 0px; /* Adjusted for the smaller box */
+  width: 3px; /* Adjusted for the smaller box */
+  height: 6px; /* Adjusted for the smaller box */
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Apply the linear gradient background to the checkmark when checked */
+.custom-checkbox input:checked + .checkmark {
+  background: linear-gradient(to right, rgb(25, 205, 255), rgb(193, 2, 232));
+}
+
+

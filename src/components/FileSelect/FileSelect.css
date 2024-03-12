@@ -1,0 +1,87 @@
+/* FileSelect.css */
+.heading, .footer {
+    display: grid;
+    grid-template-columns:40px,1.1fr,1fr,1fr,1fr,1fr; /* Adjust based on your specific layout */
+    align-items: center;
+    text-align: center;
+    background-color: rgba(13, 12, 12, 0.978);
+    color:white;
+  }
+  
+  .footer > div, .heading > div {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content within each cell */
+  }
+  
+  .down{
+    height:50px;
+    width:30px;
+
+ 
+  }
+  .down svg{
+    font-weight: bold;
+  }
+
+  
+  
+  .down + p span {
+    font-weight: bold;
+  }
+
+  .up{
+    height:25px;
+    width:30px;
+
+  }
+
+  .up + p span {
+    font-weight: bold;
+  }
+
+
+  .custom-checkbox input {
+    display: none;
+  }
+  
+ /* Create a custom checkbox appearance */
+.custom-checkbox .checkmark {
+  display: inline-block;
+  width: 12px; /* Smaller width */
+  height: 12px; /* Smaller height */
+  background: #eee;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Style for the custom tick mark */
+.custom-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* When the checkbox is checked, show the tick mark */
+.custom-checkbox input:checked + .checkmark:after {
+  display: block;
+  left: 4px; /* Adjusted for the smaller box */
+  top: 0px; /* Adjusted for the smaller box */
+  width: 3px; /* Adjusted for the smaller box */
+  height: 6px; /* Adjusted for the smaller box */
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Apply the linear gradient background to the checkmark when checked */
+.custom-checkbox input:checked + .checkmark {
+  background: linear-gradient(to right, rgb(25, 205, 255), rgb(193, 2, 232));
+}
+
+
+.ti-arrow {
+  font-size:12px;
+margin-left:5px;
+}

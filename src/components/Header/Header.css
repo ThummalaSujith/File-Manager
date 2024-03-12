@@ -1,0 +1,74 @@
+
+
+.combine{
+  display: flex;
+  flex-direction: column; 
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 20px; 
+    background-color: #20232A; 
+    color: #ffffff;
+    height: 160px;
+    background-color: rgba(13, 12, 12, 0.978);
+    color:white;
+    border-bottom: 1px solid rgb(47, 47, 47);
+    padding:10px;
+   
+  }
+  
+  .header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-menu {
+    display: flex;
+    align-items: center;
+    margin-right:95px;
+  }
+  
+  .header-menu span {
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .header-menu span:hover {
+    color: #61dafb; 
+  }
+  
+  
+
+  .header-input{
+
+  width:99%;
+
+
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+   font-weight: bold;
+    padding: 10px;
+    padding-right:10px;
+    border-radius: 5px; 
+
+    background: linear-gradient(to right, rgb(57, 57, 57), rgb(32, 32, 32)); 
+  }
+  
+  .search-icon {
+    margin-right: 5px; /* Adds some space between the icon and the input field */
+    color: #777; /* Example color, adjust as needed */
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    width: 100%; /* Ensures the input field takes up remaining space */
+  }

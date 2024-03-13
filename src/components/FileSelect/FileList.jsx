@@ -94,7 +94,7 @@ const FileList = () => {
   <span className="checkmark"></span>
 </label>
         </div>
-        <div >
+        <div className="select-all">
         
           <p>Select All</p>
         </div>

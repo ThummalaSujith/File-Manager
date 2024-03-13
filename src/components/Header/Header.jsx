@@ -1,14 +1,14 @@
 import React from "react";
 import "./Header.css";
 import { CiSearch } from "react-icons/ci";
-
+import image from "./filemanager.webp"
 const Header = () => {
   return (
     <div className="header">
       <div className="combine">
 
           <div className="header-logo">
-            <img src="./Fm.png" alt="file-manager"/>
+            <img src={image} alt="file-manager"/>
             <p>Internet Download Manager 10.36</p>
             </div>
 
